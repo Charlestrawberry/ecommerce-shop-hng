@@ -1,27 +1,24 @@
-"use client";
-import Profile1 from "/public/contact.jpg";
-import Image from "next/image";
+import React from 'react'
+import Image from 'next/image'
+import Pic from '/public/contact.jpg'
+import Pic3 from '/public/image1.png'
 
+//Image import HERE
 const HeroCarousel = () => {
-  const slides = [
-    {
-      url: "/public/contact.jpg",
-    },
-    {
-      url: "/public/contact.jpg",
-    },
-  ];
+    const Slidat = [
+     { src: Pic, alt: "first"}
+    ]
 
-  return <div>
-    <Image
-      src={Profile1} alt="pic"
-      />
-  </div>;
-};
-
-export default HeroCarousel;
-
-{
-  /*<div className="mt-3 max-sm:[1400px] h-[780px] w-full m-auto py-16 px-4 relative">
-       <div style={{backgroundImage:`url(${slides.[0].url})`}} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'> */
+  return (
+    <div>
+      <Image src='/public/contact.jpg' alt='pico' width={100} height={100} />
+      <Image src={Pic} alt='pic'  />
+      <Image src={Pic3} alt='pica'  />
+      {Slidat.map((item, i) => (
+        <Image key={i} src={item.src} alt={item.alt} />
+      ))}      
+      </div>
+  )
 }
+
+export default HeroCarousel

@@ -1,11 +1,14 @@
 import React from "react";
-import HeroCarousel from "./HeroCarousel";
+
 import Herosection from "./Herosection";
+import HeroCarouse from "./HeroCarouse";
+import NavigationBar from "./NavigationBar";
 
 const Hero = () => {
   return (
-    <di >
-      <HeroCarousel />
+    <di>
+      <HeroCarouse />
+      <NavigationBar />
       <Herosection />
     </di>
   );

@@ -4,6 +4,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FooterItems from "@/components/FooterItems";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const monts = Montserrat({
   subsets: ["latin"],
   weight: ["300", "500", "700"],

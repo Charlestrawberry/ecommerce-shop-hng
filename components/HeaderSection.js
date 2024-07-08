@@ -21,13 +21,19 @@ const HeaderSection = () => {
     <header className={`${header}`}>
       <div>
         <div className="container max-auto">
-          <div className="flex justify-between items-center">
-            <div className="flex pl-4">
-              <NavigationDrop />
+          <div className="flex justify-between items-center mb-3">
+            <div className="flex pl-4 hover:text-green-600 cursor-pointer">
+              <NavigationDrop
+                
+                title="Language EN"
+                sectionOne="French"
+                sectionTwo="Arabic"
+                SectionThree="Espanyol"
+              />
             </div>
             <div className="flex items-center max-[540px]:hidden gap-x-6">
               <Navbar
-              // PUT HIDDEN IN CONTAINER STYLES FOR MAX-SM: AND DO NECESSRAY ADJ
+                // PUT HIDDEN IN CONTAINER STYLES FOR MAX-SM: AND DO NECESSRAY ADJ
                 containerStyles=" xl:flex gap-x-8 items-center max"
                 linkStyles="relative hover:text-primary transition-all"
                 underlineStyles="absolute left:0 top-full h-[2px] bg-primary w-full"
