@@ -23,7 +23,7 @@ const FooterItems = () => {
         
         <div className="flex flex-col gap-2 ">
           <div>
-            <h1>FOLLOW US</h1>
+            <h1 className="font-bold">FOLLOW US</h1>
           </div>
           <div className="grid flex-col justify-start space-y-2 cursor-pointer ">
             <FaXTwitter className='hover:text-teal-700 '/>
@@ -34,7 +34,7 @@ const FooterItems = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:px-12 bg-[#feeafd] sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center  text-slate-900 text-sm pb-4 ml-8">
+      <div className="w-full grid grid-cols-1 sm:px-12 bg-[#feeafd] sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center  text-slate-900 text-sm pb-4 ml-8">
         <span>Terms and Conditions </span>
         <span> &copy; 2024 Hng TAsk2. All rights reserved. </span>
       </div>

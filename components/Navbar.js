@@ -11,13 +11,13 @@ const links = [
   { path: "/sales", name: "SALES" },
   { path: "/", name: "SHOP" },
   { path: "/collection", name: "COLLECTION" },
-  { path: "/stores", name: "STORES" },
+  { path: "/descriptionpage", name: "STORES" },
   { path: "/blog", name: "BLOG" },
 ];
-const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
+const Navbar = ({ containerStyles, linkStyles, underlineStyles }) => {
   const path = usePathname();
   return (
-    <nav className={`${containerStyles}`}>
+    <nav className={` ${containerStyles}`}>
       {links.map((link, i) => {
         return (
           <Link href={link.path} key={i} className={`capitalize ${linkStyles}`}>
@@ -27,7 +27,7 @@ const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
                 animate={{ y: 0 }}
                 transition={{ type: "tween" }}
                 layoutId="underline"
-                className={`${underlineStyles}`}
+                className={` ${underlineStyles}`}
               />
             )}
             {link.name}
@@ -38,5 +38,5 @@ const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
   );
 };
 
-console.log(Link.path);
-export default Nav;
+
+export default Navbar;

@@ -18,10 +18,13 @@ const HeaderSection = () => {
   });
 
   return (
+//container max-auto
+    // items-center mb-3
+    //px-4  lg:flex  items-center  gap-x-6
     <header className={`${header}`}>
       <div>
-        <div className="container max-auto">
-          <div className="flex justify-between items-center mb-3">
+        <div className="">
+          <div className="flex justify-between py-6 ">
             <div className="flex pl-4 hover:text-green-600 cursor-pointer">
               <NavigationDrop
                 
@@ -31,10 +34,11 @@ const HeaderSection = () => {
                 SectionThree="Espanyol"
               />
             </div>
-            <div className="flex items-center max-[540px]:hidden gap-x-6">
-              <Navbar
-                // PUT HIDDEN IN CONTAINER STYLES FOR MAX-SM: AND DO NECESSRAY ADJ
-                containerStyles=" xl:flex gap-x-8 items-center max"
+
+        
+            <div className="pl-11 flex items-center max-sm:hidden justify-between">
+              <Navbar  
+                containerStyles="items-center gap-4"
                 linkStyles="relative hover:text-primary transition-all"
                 underlineStyles="absolute left:0 top-full h-[2px] bg-primary w-full"
               />
