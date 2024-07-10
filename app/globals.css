@@ -15,7 +15,18 @@ body {
 @layer components {
   .header_top_icon {
     @apply bg-slate-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-[#feeafd] hover:text-white;
-  }
+  };
+ 
+}
+
+.cart-card{
+  max-width: 1400px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+.fleet-clip{
+  clip-path: polygon(0 0, 100% 0, 100% 55%, 0% 100);
 }
 
 @layer base {
