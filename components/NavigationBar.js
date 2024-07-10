@@ -6,7 +6,7 @@ import { PopoverHero } from "./PopoverHero";
 
 const NavigationBar = () => {
   return (
-    <div className="flex w-full gap-7 justify-between mx-4 py-10 ">
+    <div className="flex w-full gap-7 justify-between mx-4 py-10 max-sm:w-2/5 ">
       <div className="flex ">
         <NavigationDrop title="Color" sectionOne=" Red" sectionTwo="Blue" SectionThree="Brown" />
         <NavigationDrop title="Size" sectionOne="Small" sectionTwo="Medium" SectionThree="Large" />

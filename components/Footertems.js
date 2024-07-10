@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 
 const Footertems = ({ Links, title }) => {
@@ -7,7 +8,7 @@ const Footertems = ({ Links, title }) => {
       <h1 className="mb-1 font-bold ">{title}</h1>
       {Links.map((Link) => (
         <li key={Link.name}>
-            <a className='font-normal hover:text-teal-700 text-sm cursor-pointer leading-6 ' href={Link.link}>{Link.name}</a>
+            <div className='font-normal hover:text-teal-700 text-sm cursor-pointer leading-6 ' href={Link.link}>{Link.name}</div>
         </li>
       ))}
     </ul>
