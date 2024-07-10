@@ -1,6 +1,6 @@
 import React from "react";
 import ProductCart from "./ProductCart";
-import Prod1 from "/public/image22.jpg";
+import livee from "/public/image6.jpg"
 import Prod2 from "/public/image1.jpg";
 import Prod3 from "/public/image2.jpg";
 import Prod4 from "/public/image5.jpg";
@@ -8,7 +8,7 @@ import Prod4 from "/public/image5.jpg";
 const moreProducts = [
     {
         id: 1,
-        img: Prod1,
+        img: livee,
         alt: "product1",
         title: "Imani",
         desc: "Nude Maxi Bodycon dress",

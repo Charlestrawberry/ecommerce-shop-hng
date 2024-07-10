@@ -16,7 +16,7 @@ const NavBar2 = () => {
           SectionThree="Espanyol"
         />
 
-        <ul className="flex items-center gap-6 uppercase text-sm font-bold">
+        <ul className="flex xl:w-1/2 xl:ml-10 items-center gap-6 uppercase text-sm font-bold">
           <Link href="/sales">
             <li className="hover:text-gray-500 cursor-pointer duration-300 ">
               SALES
@@ -47,7 +47,7 @@ const NavBar2 = () => {
           <div className="mt-2">
             <CiSearch />
           </div>
-          <p className="border-b-2">search here</p>
+          <p className="border-b-2 xl:mr-32">search here</p>
         </div>
       </div>
     </div>

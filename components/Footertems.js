@@ -6,8 +6,8 @@ const Footertems = ({ Links, title }) => {
     <>
     <ul>
       <h1 className="mb-1 font-bold ">{title}</h1>
-      {Links.map((Link) => (
-        <li key={Link.name}>
+      {Links.map((Link, i) => (
+        <li key={i}>
             <div className='font-normal hover:text-teal-700 text-sm cursor-pointer leading-6 ' href={Link.link}>{Link.name}</div>
         </li>
       ))}
