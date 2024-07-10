@@ -2,7 +2,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div  className="w-[80%] max-w-full" >
+    <div  className="w-[80%] max-w-full ml-20" >
       <h1 className="w-[80%] font-bold text-4xl text-justify "> THIS IS MY bLOG PAGE HALA!!!!!!!</h1>
       <p className="font-light justify-center ">
         Sure, imagine a vibrant blog page dedicated to travel adventures.
