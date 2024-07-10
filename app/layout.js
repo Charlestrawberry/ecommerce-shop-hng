@@ -7,6 +7,8 @@ import FooterItems from "@/components/FooterItems";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Header2 from "@/components/Header2";
+import Navbar2 from "@/components/Navbar";
+import NavBar2 from "@/components/NavBar2";
 
 const monts = Montserrat({
   subsets: ["latin"],
@@ -24,6 +26,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={monts.variable}>
         <Header2 />
+        <NavBar2 />
         {children}
         <Footer />
 

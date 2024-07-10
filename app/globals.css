@@ -16,8 +16,15 @@ body {
   .header_top_icon {
     @apply bg-slate-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-[#feeafd] hover:text-white;
   };
- 
+
+  
 }
+@layer components {
+  .active{
+    @apply text-gray-500 underline underline-offset-0
+  }
+}
+
 
 .cart-card{
   max-width: 1400px;

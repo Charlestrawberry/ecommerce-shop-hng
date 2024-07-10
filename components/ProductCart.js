@@ -73,6 +73,7 @@ const ProductCart = ({ img, title, desc, rating, price }) => {
         >
           <CiHeart />
         </Link> */}
+        <Link href="/cart" className="hover:opacity-[2]">
         <Image
           className="w-full h-full object-cover relative rounded-t-2xl"
           src={img}
@@ -80,6 +81,7 @@ const ProductCart = ({ img, title, desc, rating, price }) => {
           height={400}
           alt={title}
         />
+        </Link>
       </div>
 
       <div

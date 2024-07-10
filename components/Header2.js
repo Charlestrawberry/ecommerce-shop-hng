@@ -29,7 +29,7 @@ const Header2 = () => {
             </div>
 
             <div className="flex">
-              <Image src={Logo} alt="logo" />
+              <Link href="/shop"> <Image src={Logo} alt="logo" /></Link>
             </div>
 
             <div className="flex flex-row gap-4 mr-8 ">
@@ -61,7 +61,8 @@ const Header2 = () => {
             </div>
         </div>
       </div>
-      <HeaderSection />
+      {/*  */}
+      
     </div>
   );
 };

@@ -68,7 +68,7 @@ const page = () => {
 
           <Link href="/checkout">
             <Button
-              className="bg-black text-white rounded-none py-3 px-20 hover:bg-slate-400 transition-all duration-75"
+              className="bg-black text-white rounded-none py-3 px-20 hover:bg-slate-800 transition-all duration-75"
               variant="primary"
             >
               Check Out
